@@ -216,7 +216,7 @@ app.get("/api/predict-risk/:shipmentId", async (req, res) => {
     }
 
     const response = await axios.post(
-      "process.env.ML_API",
+      process.env.ML_API,
       {
         "Stock levels": shipment.stockLevels,
         "Lead times": shipment.leadTimes,
