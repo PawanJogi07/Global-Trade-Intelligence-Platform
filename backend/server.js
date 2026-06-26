@@ -216,7 +216,7 @@ app.get("/api/predict-risk/:shipmentId", async (req, res) => {
     }
 
     const response = await axios.post(
-      "http://127.0.0.1:5001/predict",
+      "process.env.ML_API",
       {
         "Stock levels": shipment.stockLevels,
         "Lead times": shipment.leadTimes,
