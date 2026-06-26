@@ -13,8 +13,7 @@ Predict shipment risks using Machine Learning, monitor global trade disruptions,
 ## 🚀 Live Demo
 
 ### 🌐 Frontend
-(Add Vercel URL Here)
-
+](https://global-trade-intelligence-platform-rfi3yxulj.vercel.app/)
 ### ⚙️ Backend API
 (Add Render Backend URL Here)
 
