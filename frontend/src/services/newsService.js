@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/news";
+const API_URL = "https://global-trade-intelligence-platform-1.onrender.com/api/news";
 
 export const getNews = async () => {
   const response = await axios.get(API_URL);

@@ -105,7 +105,7 @@ app.get("/api/risk", async (req, res) => {
     const weatherRisk = 65;
 
     const commodityResponse = await fetch(
-      "http://localhost:5000/api/commodity"
+      "https://global-trade-intelligence-platform-1.onrender.com/api/commodity"
     );
 
     const commodityData = await commodityResponse.json();
@@ -140,7 +140,7 @@ app.get("/api/risk", async (req, res) => {
 app.get("/api/insights", async (req, res) => {
   try {
     const riskResponse = await fetch(
-      "http://localhost:5000/api/risk"
+      "https://global-trade-intelligence-platform-1.onrender.com/api/risk"
     );
 
     const risk = await riskResponse.json();
